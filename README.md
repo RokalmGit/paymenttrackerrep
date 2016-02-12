@@ -2,7 +2,7 @@
 
 Installation instructions:
 
-1) Extract maven.zip to the desktop.
+1) Extract maven.rar to the desktop.
 
 2) Download the latest version of JDK and install it. It can be found here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
