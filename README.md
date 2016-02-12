@@ -24,6 +24,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "dos"
 then maven is installed correctly.
 
 6) Using the command line, type “cd desktop\maven\paymenttracker” to navigate to the project folder. Type mvn compile to compile the program and mvn package to create the executable jar file. It will be in the target folder under paymenttracker.
+
 7) Run the jar file.
 
 Assumptions that are made:
