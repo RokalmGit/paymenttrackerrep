@@ -29,7 +29,9 @@ then maven is installed correctly.
 Assumptions that are made:
 
 1) If a user enters an invalid input, for example USD sds then he/she receives an error message saying that is an invalid entry. Everything before the invalid entry is added.
+
 2) If a user enters a currency code that contains more or less than 3 characters, he/she receives an error message.
+
 3) If a user tries to withdraw more money than what is available, he/she receives an error message. I assumed that currencies cannot go below 0.
 
 If you receive errors about maven version, go to the project's folder and edit pom.xml. Scroll down and change “version” in this block:
