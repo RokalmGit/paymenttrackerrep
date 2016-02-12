@@ -6,7 +6,7 @@ Installation instructions:
 
 2) Download the latest version of JDK and install it. It can be found here: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-3) Set the PATH for maven and JAVA_HOME. To do so, right click on My PC (or This PC on Win10) and go to Properties, Advanced System Settings, Advanced, Environment Variables. Add a user variable called “Path” if it doesn't exist and set variable value to the path of the “bin” file in maven directory. For example, mine is at C:\Users\Rokalm\Desktop\apache-maven-3.3.9\bin. 
+3) Set the PATH for maven and JAVA_HOME. To do so, right click on My PC (or This PC on Win10) and go to Properties, Advanced System Settings, Advanced, Environment Variables. Add a user variable called “Path” if it doesn't exist and set variable value to the path of the “bin” folder in maven directory. For example, mine is at C:\Users\Rokalm\Desktop\apache-maven-3.3.9\bin. 
 
 If the variable exists, edit it and add the path to the very end. Path strings are seperated by “;”.
 
