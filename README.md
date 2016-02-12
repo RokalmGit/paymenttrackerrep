@@ -34,7 +34,7 @@ Assumptions that are made:
 
 If you receive errors about maven version, go to the project's folder and edit pom.xml. Scroll down and change “version” in this block:
 
-"<plugin>
+
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.3</version>
@@ -42,4 +42,4 @@ If you receive errors about maven version, go to the project's folder and edit p
         <source>1.8</source>
         <target>1.8</target>
     </configuration>
-</plugin>"
+
