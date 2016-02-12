@@ -3,7 +3,9 @@
 Installation instructions:
 
 1) Extract maven.zip to the desktop.
+
 2) Download the latest version of JDK, this program was written using JDK 1.8.
+
 3) Set the PATH for maven and JAVA_HOME. To do so, right click on My PC (or This PC on Win10) and go to Properties, Advanced System Settings, Advanced, Environment Variables. Add a user variable called “Path” if it doesn't exist and set variable value to the path of the “bin” file in maven directory. For example, mine is at C:\Users\Rokalm\Desktop\apache-maven-3.3.9\bin. 
 
 If the variable exists, edit it and add the path to the very end. Path strings are seperated by “;”.
@@ -32,7 +34,7 @@ Assumptions that are made:
 
 If you receive errors about maven version, go to the project's folder and edit pom.xml. Scroll down and change “version” in this block:
 
-<plugin>
+"<plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.3</version>
@@ -40,4 +42,4 @@ If you receive errors about maven version, go to the project's folder and edit p
         <source>1.8</source>
         <target>1.8</target>
     </configuration>
-</plugin>
+</plugin>"
